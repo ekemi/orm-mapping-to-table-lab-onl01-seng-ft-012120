@@ -53,6 +53,7 @@ class Student
     new_oject=Student.new(name, grade)
     new_oject.save
     new_oject
+    binding.pry
     
   end
 end
